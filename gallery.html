@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery of Nderi Kennels - See our trained protection dogs, facilities, and training sessions in Nairobi, Kenya.">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTZJL5EKFZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FTZJL5EKFZ');
+    </script>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="LGLwdLK56E2T27H/+H8c0g" async></script>
+    <!-- Facebook Pixel Code -->
+    <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '4290645347855184'); fbq('track', 'PageView');</script>
+    <noscript><img height="1" width="1" src="https://www.facebook.com/tr?id=4290645347855184&ev=PageView&noscript=1"/></noscript>
+    <!-- End Facebook Pixel Code -->
+    <title>Gallery • Nderi Kennels</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-gold': '#d4af37',
+                        'brand-dark': '#0a0f0c',
+                        'brand-card': '#111613',
+                        'brand-muted': '#9ca3af',
+                        'border-gold': 'rgba(212, 175, 55, 0.2)',
+                    },
+                    fontFamily: {
+                        'space': ['Space Grotesk', 'sans-serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.6s ease-out',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="canonical" href="https://nderidogservices.netlify.app/gallery.html">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background: #0a0f0c;
+        }
+        .gallery-item-hover:hover {
+            transform: translateY(-5px);
+            border-color: rgba(212, 175, 55, 0.4);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        .gallery-image {
+            transition: transform 0.3s ease;
+        }
+        .gallery-item-hover:hover .gallery-image {
+            transform: scale(1.05);
+        }
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(10px);
+        }
+        .modal-content {
+            position: relative;
+            margin: auto;
+            padding: 20px;
+            width: 90%;
+            max-width: 1200px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .modal-image {
+            width: 100%;
+            max-height: 80vh;
+            object-fit: contain;
+            border-radius: 12px;
+        }
+        .close-modal {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            z-index: 2001;
+            transition: color 0.2s ease;
+        }
+        .close-modal:hover {
+            color: #d4af37;
+        }
+        .nav-btn {
+            background: rgba(212, 175, 55, 0.3);
+            color: white;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        .nav-btn:hover {
+            background: #d4af37;
+            color: #0a0f0c;
+        }
+        @media (max-width: 768px) {
+            .close-modal {
+                top: 10px;
+                right: 20px;
+                font-size: 30px;
+            }
+            .nav-btn {
+                width: 40px;
+                height: 40px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body class="font-inter bg-brand-dark text-gray-200">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur-md border-b border-border-gold py-4 px-4 md:px-8">
+        <div class="max-w-7xl mx-auto flex justify-between items-center flex-wrap gap-4">
+            <div class="logo">
+                <a href="index.html" class="text-2xl md:text-3xl font-extrabold tracking-tight text-white">
+                    NDERI <span class="text-brand-gold">KENNELS</span>
+                </a>
+            </div>
+            <button id="mobileMenuBtn" class="md:hidden text-white text-2xl focus:outline-none">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul id="navLinks" class="hidden md:flex flex-col md:flex-row gap-6 md:gap-8 text-sm uppercase tracking-wide font-semibold">
+                <li><a href="index.html" class="hover:text-brand-gold transition">Home</a></li>
+                <li><a href="about.html" class="hover:text-brand-gold transition">About</a></li>
+                <li><a href="services.html" class="hover:text-brand-gold transition">Services</a></li>
+                <li><a href="training.html" class="hover:text-brand-gold transition">Training</a></li>
+                <li><a href="ratecard.html" class="hover:text-brand-gold transition">Ratecard</a></li>
+                <li><a href="gallery.html" class="text-brand-gold border-b-2 border-brand-gold pb-1">Gallery</a></li>
+                <li><a href="faq.html" class="hover:text-brand-gold transition">FAQ</a></li>
+                <li><a href="contact.html" class="hover:text-brand-gold transition">Contact</a></li>
+            </ul>
+        </div>
+        <div id="mobileMenu" class="hidden md:hidden flex-col bg-brand-dark/95 backdrop-blur-md mt-4 rounded-2xl border border-border-gold p-4 gap-3 text-sm uppercase font-semibold">
+            <a href="index.html" class="px-3 py-2 hover:bg-brand-gold/10 rounded-lg">Home</a>
+            <a href="about.html" class="px-3 py-2 hover:bg-brand-gold/10 rounded-lg">About</a>
+            <a href="services.html" class="px-3 py-2 hover:bg-brand-gold/10 rounded-lg">Services</a>
+            <a href="training.html" class="px-3 py-2 hover:bg-brand-gold/10 rounded-lg">Training</a>
+            <a href="ratecard.html" class="px-3 py-2 hover:bg-brand-gold/10 rounded-lg">Ratecard</a>
+            <a href="gallery.html" class="px-3 py-2 text-brand-gold bg-brand-gold/5 rounded-lg">Gallery</a>
+            <a href="faq.html" class="px-3 py-2 hover:bg-brand-gold/10 rounded-lg">FAQ</a>
+            <a href="contact.html" class="px-3 py-2 hover:bg-brand-gold/10 rounded-lg">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <div class="bg-gradient-to-br from-[#0f140f] to-[#111613] py-16 md:py-20 text-center border-b border-border-gold">
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white animate-fade-in">
+                Our <span class="text-brand-gold">Gallery</span>
+            </h1>
+            <p class="text-brand-muted max-w-2xl mx-auto mt-4 text-lg px-4">Images from our kennels and training sessions</p>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="max-w-7xl mx-auto py-16 px-5 md:px-8">
+            <div id="galleryGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Gallery images will be loaded via JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal Lightbox -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img class="modal-image" id="modalImage" src="" alt="">
+            <div class="text-center text-white mt-4 text-base md:text-lg" id="modalCaption"></div>
+        </div>
+        <div class="absolute top-1/2 left-0 right-0 flex justify-between px-4 transform -translate-y-1/2 pointer-events-none">
+            <button class="nav-btn pointer-events-auto" onclick="prevImage()">❮</button>
+            <button class="nav-btn pointer-events-auto" onclick="nextImage()">❯</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark border-t border-border-gold pt-14 pb-8 mt-10">
+        <div class="max-w-7xl mx-auto px-6 md:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div>
+                    <h2 class="text-2xl font-bold text-white">NDERI <span class="text-brand-gold">KENNELS</span></h2>
+                    <p class="text-brand-muted mt-3 mb-6 leading-relaxed">Elite canine services in Nairobi since 2017. Protection, training, and care excellence.</p>
+                    <div class="space-y-3">
+                        <div class="flex items-center gap-3 text-gray-300"><i class="fas fa-phone-alt text-brand-gold w-5"></i> <a href="tel:+254705627844" class="hover:text-brand-gold">+254 705 627 844</a></div>
+                        <div class="flex items-center gap-3 text-gray-300"><i class="fas fa-envelope text-brand-gold w-5"></i> <a href="mailto:nderiprotectiondogs@gmail.com" class="hover:text-brand-gold">nderiprotectiondogs@gmail.com</a></div>
+                        <div class="flex items-center gap-3 text-gray-300"><i class="fas fa-map-pin text-brand-gold w-5"></i> <span>Nairobi, Kenya</span></div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-white text-xl font-semibold mb-5">Connect</h3>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="https://www.instagram.com/donnderi" target="_blank" class="bg-brand-gold/10 border border-border-gold rounded-2xl w-12 h-12 flex items-center justify-center text-white hover:bg-brand-gold hover:text-black transition-all"><i class="fab fa-instagram text-xl"></i></a>
+                        <a href="https://www.tiktok.com/@donnderi" target="_blank" class="bg-brand-gold/10 border border-border-gold rounded-2xl w-12 h-12 flex items-center justify-center text-white hover:bg-brand-gold hover:text-black transition-all"><i class="fab fa-tiktok text-xl"></i></a>
+                        <a href="#" class="bg-brand-gold/10 border border-border-gold rounded-2xl w-12 h-12 flex items-center justify-center text-white hover:bg-brand-gold hover:text-black transition-all"><i class="fab fa-facebook-f text-xl"></i></a>
+                        <a href="#" class="bg-brand-gold/10 border border-border-gold rounded-2xl w-12 h-12 flex items-center justify-center text-white hover:bg-brand-gold hover:text-black transition-all"><i class="fab fa-youtube text-xl"></i></a>
+                        <a href="https://wa.me/254705627844" target="_blank" class="bg-brand-gold/10 border border-border-gold rounded-2xl w-12 h-12 flex items-center justify-center text-white hover:bg-brand-gold hover:text-black transition-all"><i class="fab fa-whatsapp text-xl"></i></a>
+                    </div>
+                    <p class="text-brand-gold mt-5 text-sm tracking-wide">@donnderi</p>
+                </div>
+                <div class="bg-brand-gold/5 rounded-2xl p-5 border border-border-gold">
+                    <h3 class="text-white text-xl font-semibold mb-4">Hours</h3>
+                    <div class="space-y-2 text-gray-300">
+                        <div class="flex justify-between"><span>Mon-Fri</span><span class="font-bold text-brand-gold">8:00 - 18:00</span></div>
+                        <div class="flex justify-between"><span>Saturday</span><span class="font-bold text-brand-gold">9:00 - 16:00</span></div>
+                        <div class="flex justify-between"><span>Sunday</span><span class="font-bold text-brand-gold">Closed</span></div>
+                        <div class="border-t border-border-gold pt-3 mt-2 flex justify-between"><span>Emergency</span><span class="font-bold text-brand-gold">24/7</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-border-gold mt-12 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+                <div>© 2024 NDERI KENNELS — Excellence in Canine Services</div>
+                <div class="flex gap-2 mt-3 md:mt-0">
+                    <i class="fas fa-paw text-brand-gold"></i>
+                    <i class="fas fa-paw text-brand-gold"></i>
+                    <i class="fas fa-paw text-brand-gold"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery JavaScript -->
+    <script>
+        // Define your gallery images here - Add your actual image paths
+        const galleryImages = [
+            { filename: "German Shepherd Training", url: "https://placehold.co/600x400/1a1f1a/d4af37?text=German+Shepherd" },
+            { filename: "Belgian Malinois Action", url: "https://placehold.co/600x400/1a1f1a/d4af37?text=Belgian+Malinois" },
+            { filename: "Protection Training Session", url: "https://placehold.co/600x400/1a1f1a/d4af37?text=Protection+Training" },
+            { filename: "Our Kennel Facility", url: "https://placehold.co/600x400/1a1f1a/d4af37?text=Kennel+Facility" },
+            { filename: "Puppy Socialization", url: "https://placehold.co/600x400/1a1f1a/d4af37?text=Puppy+Socialization" },
+            { filename: "Handler Course Graduation", url: "https://placehold.co/600x400/1a1f1a/d4af37?text=Handler+Course" },
+        ];
+
+        let currentImages = galleryImages;
+        let currentIndex = 0;
+
+        // Render gallery
+        function renderGallery() {
+            const galleryGrid = document.getElementById('galleryGrid');
+            if (!galleryGrid) return;
+
+            if (galleryImages.length === 0) {
+                galleryGrid.innerHTML = `
+                    <div class="col-span-full text-center py-16">
+                        <i class="fas fa-camera text-5xl text-brand-gold mb-4"></i>
+                        <h3 class="text-2xl font-semibold text-white mb-2">No images found</h3>
+                        <p class="text-brand-muted">Please add images to the gallery.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            galleryGrid.innerHTML = galleryImages.map((image, index) => `
+                <div class="gallery-item-hover bg-white/5 border border-border-gold rounded-2xl overflow-hidden cursor-pointer transition-all duration-300" onclick="openModal(${index})">
+                    <div class="h-64 overflow-hidden bg-gradient-to-br from-[#1a1f1a] to-[#111613]">
+                        <img class="gallery-image w-full h-full object-cover" src="${image.url}" alt="${image.filename}" loading="lazy" onerror="this.src='https://placehold.co/600x400/1a1f1a/d4af37?text=Image+Not+Found'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-white font-semibold truncate">${image.filename}</h3>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Modal functions
+        window.openModal = function(index) {
+            if (!currentImages.length) return;
+            currentIndex = index;
+            const image = currentImages[currentIndex];
+            const modal = document.getElementById('imageModal');
+            const modalImage = document.getElementById('modalImage');
+            const modalCaption = document.getElementById('modalCaption');
+
+            if (modalImage && modalCaption) {
+                modalImage.src = image.url;
+                modalCaption.textContent = image.filename;
+                modal.style.display = "block";
+                document.body.style.overflow = "hidden";
+            }
+        };
+
+        window.closeModal = function() {
+            const modal = document.getElementById('imageModal');
+            if (modal) {
+                modal.style.display = "none";
+                document.body.style.overflow = "auto";
+            }
+        };
+
+        window.prevImage = function() {
+            if (currentImages.length === 0) return;
+            currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+            const image = currentImages[currentIndex];
+            const modalImage = document.getElementById('modalImage');
+            const modalCaption = document.getElementById('modalCaption');
+            if (modalImage && modalCaption) {
+                modalImage.src = image.url;
+                modalCaption.textContent = image.filename;
+            }
+        };
+
+        window.nextImage = function() {
+            if (currentImages.length === 0) return;
+            currentIndex = (currentIndex + 1) % currentImages.length;
+            const image = currentImages[currentIndex];
+            const modalImage = document.getElementById('modalImage');
+            const modalCaption = document.getElementById('modalCaption');
+            if (modalImage && modalCaption) {
+                modalImage.src = image.url;
+                modalCaption.textContent = image.filename;
+            }
+        };
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+            if (e.key === 'ArrowLeft') {
+                prevImage();
+            }
+            if (e.key === 'ArrowRight') {
+                nextImage();
+            }
+        });
+
+        // Initialize gallery
+        renderGallery();
+
+        // Mobile menu toggle
+        (function() {
+            const menuBtn = document.getElementById('mobileMenuBtn');
+            const mobileMenu = document.getElementById('mobileMenu');
+            if (menuBtn && mobileMenu) {
+                menuBtn.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                });
+                const links = mobileMenu.querySelectorAll('a');
+                links.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                    });
+                });
+            }
+        })();
+    </script>
+</body>
+</html>

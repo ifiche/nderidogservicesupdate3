@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nderi Kennels ratecard - Transparent pricing for dog training, protection programs, boarding, grooming, and handler courses in Nairobi, Kenya.">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Dog Training Services",
+      "offers": [
+        {"@type": "Offer", "name": "Basic Obedience", "price": "30000", "priceCurrency": "KES"},
+        {"@type": "Offer", "name": "Advanced Training", "price": "70000", "priceCurrency": "KES"},
+        {"@type": "Offer", "name": "Protection Training", "price": "100000", "priceCurrency": "KES"}
+      ]
+    }
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTZJL5EKFZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FTZJL5EKFZ');
+    </script>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="LGLwdLK56E2T27H/+H8c0g" async></script>
+    <!-- Facebook Pixel Code -->
+    <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '4290645347855184'); fbq('track', 'PageView');</script>
+    <noscript><img height="1" width="1" src="https://www.facebook.com/tr?id=4290645347855184&ev=PageView&noscript=1"/></noscript>
+    <!-- End Facebook Pixel Code -->
+    <title>Ratecard • Nderi Kennels Pricing</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-gold': '#d4af37',
+                        'brand-dark': '#0a0f0c',
+                        'brand-card': '#111613',
+                        'brand-muted': '#9ca3af',
+                        'border-gold': 'rgba(212, 175, 55, 0.2)',
+                    },
+                    fontFamily: {
+                        'space': ['Space Grotesk', 'sans-serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.6s ease-out',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="canonical" href="https://nderidogservices.netlify.app/ratecard.html">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background: #0a0f0c;
+        }
+        .tier-card-hover:hover {
+            transform: translateY(-5px);
+            border-color: rgba(212, 175, 55, 0.4);
+        }
+        .service-card-hover:hover {
+            transform: translateY(-4px);
+            border-color: rgba(212, 175, 55, 0.4);
+        }
+        .price-row-hover:hover {
+            background: rgba(212, 175, 55, 0.03);
+        }
+    </style>
+</head>
+<body class="font-inter bg-brand-dark text-gray-200">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur-md border-b border-border-gold py-4 px-4 md:px-8">
+        <div class="max-w-7xl mx-auto flex justify-between items-center flex-wrap gap-4">
+            <div class="logo">
+                <a href="index.html" class="text-2xl md:text-3xl font-extrabold tracking-tight text-white">
+                    NDERI <span class="text-brand-gold">KENNELS</span>
+                </a>
+            </div>
+            <button id="mobileMenuBtn" class="md:hidden text-white text-2xl focus:outline-none">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul id="navLinks" class="hidden md:flex flex-col md:flex-row gap-6 md:gap-8 text-sm uppercase tracking-wide font-semibold">
+                <li><a href="index.html" class="hover:text-brand-gold transition">Home</a></li>
+                <li><a href="about.html" class="hover:text-brand-gold transition">About</a></li>
+                <li><a href="services.html" class="hover:text-brand-gold transition">Services</a></li>
+                <li><a href="training.html" class="hover:text-brand-gold transition">Training</a></li>
+                <li><a href="ratecard.html" class="text-brand-gold border-b-2 border-brand-gold pb-1">Ratecard</a></li>
+                <li><a href="gallery.html" class="hover:text-brand-gold transition">Gallery</a></li>
+                <li><a href="faq.html" class="hover:text-brand-gold transition">FAQ</a></li>
+                <li><a href="contact.html" class="hover:text-brand-gold transition">Contact</a></li>
+            </ul>
+        </div>
+        <div id="mobileMenu" class="hidden md:hidden flex-col bg-brand-dark/95 backdrop-blur-md mt-4 rounded-2xl border border-border-gold p-4 gap-3 text-sm uppercase font-semibold">
+            <a href="index.html" class="px-3 py-2 hover:bg-brand-gold/10 rounded-lg">Home</a>
+            <a href="about.html" class="px-3 py-2 hover:bg-brand-gold/10 rounded-lg">About</a>
+            <a href="services.html" class="px-3 py-2 hover:bg-brand-gold/10 rounded-lg">Services</a>
+            <a href="training.html" class="px-3 py-2 hover:bg-brand-gold/10 rounded-lg">Training</a>
+            <a href="ratecard.html" class="px-3 py-2 text-brand-gold bg-brand-gold/5 rounded-lg">Ratecard</a>
+            <a href="gallery.html" class="px-3 py-2 hover:bg-brand-gold/10 rounded-lg">Gallery</a>
+            <a href="faq.html" class="px-3 py-2 hover:bg-brand-gold/10 rounded-lg">FAQ</a>
+            <a href="contact.html" class="px-3 py-2 hover:bg-brand-gold/10 rounded-lg">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Rate Card Hero -->
+        <div class="max-w-6xl mx-auto mt-8 md:mt-12 bg-brand-card rounded-3xl md:rounded-4xl shadow-2xl overflow-hidden border border-border-gold mx-4 md:mx-auto">
+            <div class="bg-gradient-to-b from-[#0f140f] to-[#111613] px-6 md:px-10 py-12 md:py-16 border-b border-border-gold">
+                <h1 class="text-5xl md:text-7xl font-extrabold uppercase tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-brand-gold to-yellow-600" style="-webkit-text-stroke: 1px rgba(212,175,55,0.3);">RATE <span class="text-brand-gold bg-none">CARD</span></h1>
+                <p class="text-brand-muted mt-4 text-lg">Transparent pricing for all our services</p>
+            </div>
+
+            <div class="px-6 md:px-10 py-8 md:py-12">
+                <!-- Training Programs Section -->
+                <h2 class="text-2xl md:text-3xl font-bold text-white mb-6">Training Programs</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                    <!-- Basic Obedience Tier -->
+                    <div class="tier-card-hover bg-gradient-to-b from-black/30 to-black/50 rounded-xl p-6 text-center border border-border-gold transition-all duration-300">
+                        <div class="text-xl font-semibold text-white mb-3">Basic Obedience</div>
+                        <div class="text-4xl font-bold text-brand-gold mb-3">30K <span class="text-sm text-gray-400">KES</span></div>
+                        <ul class="space-y-2 text-brand-muted text-sm mt-4">
+                            <li><i class="fas fa-check text-brand-gold mr-2"></i> 2 weeks intensive</li>
+                            <li><i class="fas fa-check text-brand-gold mr-2"></i> Sit, stay, recall</li>
+                            <li><i class="fas fa-check text-brand-gold mr-2"></i> Leash manners</li>
+                            <li><i class="fas fa-check text-brand-gold mr-2"></i> Socialization</li>
+                        </ul>
+                    </div>
+                    <!-- Advanced Tier (Popular) -->
+                    <div class="tier-card-hover bg-gradient-to-b from-black/30 to-black/50 rounded-xl p-6 text-center border border-brand-gold relative transition-all duration-300">
+                        <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-brand-gold text-brand-dark text-xs font-bold px-3 py-1 rounded-full">★ MOST POPULAR</div>
+                        <div class="text-xl font-semibold text-white mb-3 mt-2">Advanced</div>
+                        <div class="text-4xl font-bold text-brand-gold mb-3">70K <span class="text-sm text-gray-400">KES</span></div>
+                        <ul class="space-y-2 text-brand-muted text-sm mt-4">
+                            <li><i class="fas fa-check text-brand-gold mr-2"></i> 6 weeks</li>
+                            <li><i class="fas fa-check text-brand-gold mr-2"></i> Off-leash control</li>
+                            <li><i class="fas fa-check text-brand-gold mr-2"></i> Distance commands</li>
+                            <li><i class="fas fa-check text-brand-gold mr-2"></i> Complex scenarios</li>
+                        </ul>
+                    </div>
+                    <!-- Protection Tier -->
+                    <div class="tier-card-hover bg-gradient-to-b from-black/30 to-black/50 rounded-xl p-6 text-center border border-border-gold transition-all duration-300">
+                        <div class="text-xl font-semibold text-white mb-3">Protection</div>
+                        <div class="text-4xl font-bold text-brand-gold mb-3">100K <span class="text-sm text-gray-400">KES</span></div>
+                        <ul class="space-y-2 text-brand-muted text-sm mt-4">
+                            <li><i class="fas fa-check text-brand-gold mr-2"></i> 10-14 weeks</li>
+                            <li><i class="fas fa-check text-brand-gold mr-2"></i> Patrol training</li>
+                            <li><i class="fas fa-check text-brand-gold mr-2"></i> Apprehension</li>
+                            <li><i class="fas fa-check text-brand-gold mr-2"></i> Handler protection</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Specialized Services -->
+                <h2 class="text-2xl md:text-3xl font-bold text-white mt-12 mb-6">Specialized Services</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                    <div class="service-card-hover bg-white/5 border border-border-gold rounded-xl p-5 transition-all duration-300">
+                        <i class="fas fa-search text-3xl text-brand-gold mb-3"></i>
+                        <div class="flex justify-between items-center flex-wrap gap-2 mb-2">
+                            <h3 class="text-xl font-semibold text-white">Detection</h3>
+                            <span class="text-brand-gold font-bold">120K</span>
+                        </div>
+                        <p class="text-brand-muted text-sm">Narcotics, explosives, currency detection - 12-16 weeks</p>
+                    </div>
+                    <div class="service-card-hover bg-white/5 border border-border-gold rounded-xl p-5 transition-all duration-300">
+                        <i class="fas fa-home text-3xl text-brand-gold mb-3"></i>
+                        <div class="flex justify-between items-center flex-wrap gap-2 mb-2">
+                            <h3 class="text-xl font-semibold text-white">Home Guard</h3>
+                            <span class="text-brand-gold font-bold">75K</span>
+                        </div>
+                        <p class="text-brand-muted text-sm">Property protection, intruder alert, family safety</p>
+                    </div>
+                    <div class="service-card-hover bg-white/5 border border-border-gold rounded-xl p-5 transition-all duration-300">
+                        <i class="fas fa-tractor text-3xl text-brand-gold mb-3"></i>
+                        <div class="flex justify-between items-center flex-wrap gap-2 mb-2">
+                            <h3 class="text-xl font-semibold text-white">Farm/Ranch</h3>
+                            <span class="text-brand-gold font-bold">85K</span>
+                        </div>
+                        <p class="text-brand-muted text-sm">Livestock protection, predator control</p>
+                    </div>
+                    <div class="service-card-hover bg-white/5 border border-border-gold rounded-xl p-5 transition-all duration-300">
+                        <i class="fas fa-user-tie text-3xl text-brand-gold mb-3"></i>
+                        <div class="flex justify-between items-center flex-wrap gap-2 mb-2">
+                            <h3 class="text-xl font-semibold text-white">Handler Course</h3>
+                            <span class="text-brand-gold font-bold">30K</span>
+                        </div>
+                        <p class="text-brand-muted text-sm">Professional handler certification</p>
+                    </div>
+                </div>
+
+                <!-- Grooming Services Table -->
+                <h2 class="text-2xl md:text-3xl font-bold text-white mt-12 mb-6">Grooming Services</h2>
+                <div class="bg-black/20 rounded-xl border border-border-gold overflow-hidden mb-12">
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-3 p-4 bg-brand-gold/5 border-b border-border-gold font-semibold text-brand-gold">
+                        <div>Grooming Service</div>
+                        <div>Size</div>
+                        <div>Duration</div>
+                        <div>Price</div>
+                    </div>
+                    <div class="price-row-hover grid grid-cols-1 md:grid-cols-4 gap-3 p-4 border-b border-white/5 transition">
+                        <div><strong>Full Groom</strong><br><small class="text-gray-400">Bath, cut, nails, ears</small></div>
+                        <div>Small</div>
+                        <div>1.5-2h</div>
+                        <div class="text-brand-gold font-semibold">1,500 KES</div>
+                    </div>
+                    <div class="price-row-hover grid grid-cols-1 md:grid-cols-4 gap-3 p-4 border-b border-white/5 transition">
+                        <div><strong>Full Groom</strong></div>
+                        <div>Medium</div>
+                        <div>2-2.5h</div>
+                        <div class="text-brand-gold font-semibold">2,500 KES</div>
+                    </div>
+                    <div class="price-row-hover grid grid-cols-1 md:grid-cols-4 gap-3 p-4 border-b border-white/5 transition">
+                        <div><strong>Full Groom + Deshed</strong></div>
+                        <div>Large</div>
+                        <div>2.5-3.5h</div>
+                        <div class="text-brand-gold font-semibold">3,500 KES</div>
+                    </div>
+                    <div class="price-row-hover grid grid-cols-1 md:grid-cols-4 gap-3 p-4 transition">
+                        <div><strong>Bath & Dry Only</strong></div>
+                        <div>All Sizes</div>
+                        <div>1h</div>
+                        <div class="text-brand-gold font-semibold">800 - 1,500 KES</div>
+                    </div>
+                </div>
+
+                <!-- Boarding Rates Table -->
+                <h2 class="text-2xl md:text-3xl font-bold text-white mt-12 mb-6">Boarding Rates</h2>
+                <div class="bg-black/20 rounded-xl border border-border-gold overflow-hidden mb-12">
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-3 p-4 bg-brand-gold/5 border-b border-border-gold font-semibold text-brand-gold">
+                        <div>Size</div>
+                        <div>Daily</div>
+                        <div>Weekly</div>
+                        <div>Monthly</div>
+                    </div>
+                    <div class="price-row-hover grid grid-cols-1 md:grid-cols-4 gap-3 p-4 border-b border-white/5 transition">
+                        <div><strong>Small</strong> &lt;10kg</div>
+                        <div class="text-brand-gold font-semibold">1,200</div>
+                        <div>7,500 <span class="text-green-500 text-sm">(save 1,900)</span></div>
+                        <div>28,000 <span class="text-green-500 text-sm">(save 8,000)</span></div>
+                    </div>
+                    <div class="price-row-hover grid grid-cols-1 md:grid-cols-4 gap-3 p-4 border-b border-white/5 transition">
+                        <div><strong>Medium</strong> 10-25kg</div>
+                        <div class="text-brand-gold font-semibold">1,800</div>
+                        <div>11,000 <span class="text-green-500 text-sm">(save 1,600)</span></div>
+                        <div>40,000 <span class="text-green-500 text-sm">(save 14,000)</span></div>
+                    </div>
+                    <div class="price-row-hover grid grid-cols-1 md:grid-cols-4 gap-3 p-4 transition">
+                        <div><strong>Large</strong> &gt;25kg</div>
+                        <div class="text-brand-gold font-semibold">2,500</div>
+                        <div>15,000 <span class="text-green-500 text-sm">(save 2,500)</span></div>
+                        <div>55,000 <span class="text-green-500 text-sm">(save 20,000)</span></div>
+                    </div>
+                </div>
+
+                <!-- Notice Board -->
+                <div class="bg-gradient-to-r from-[#1a1f1a] to-[#111613] border border-brand-gold rounded-2xl p-6 mb-8">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                        <div class="flex items-center gap-2 text-gray-300"><i class="fas fa-percent text-brand-gold"></i> All prices +16% VAT</div>
+                        <div class="flex items-center gap-2 text-gray-300"><i class="fas fa-syringe text-brand-gold"></i> Vaccinations required</div>
+                        <div class="flex items-center gap-2 text-gray-300"><i class="fas fa-file-signature text-brand-gold"></i> 50% deposit over 4 weeks</div>
+                        <div class="flex items-center gap-2 text-gray-300"><i class="fas fa-calendar text-brand-gold"></i> Valid until June 2026</div>
+                        <div class="flex items-center gap-2 text-gray-300"><i class="fas fa-clock text-brand-gold"></i> 48hr cancellation policy</div>
+                        <div class="flex items-center gap-2 text-gray-300"><i class="fas fa-briefcase text-brand-gold"></i> Corporate packages available</div>
+                        <div class="flex items-center gap-2 text-gray-300"><i class="fas fa-truck text-brand-gold"></i> Transportation available</div>
+                        <div class="flex items-center gap-2 text-gray-300"><i class="fas fa-credit-card text-brand-gold"></i> M-Pesa & card accepted</div>
+                    </div>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="text-center mt-8">
+                    <a href="contact.html" class="inline-block bg-brand-gold hover:bg-amber-500 text-brand-dark font-bold py-3 px-10 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">Request Custom Quote <i class="fas fa-arrow-right ml-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark border-t border-border-gold pt-14 pb-8 mt-16">
+        <div class="max-w-7xl mx-auto px-6 md:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div>
+                    <h2 class="text-2xl font-bold text-white">NDERI <span class="text-brand-gold">KENNELS</span></h2>
+                    <p class="text-brand-muted mt-3 mb-6 leading-relaxed">Elite canine services in Nairobi since 2017. Protection, training, and care excellence.</p>
+                    <div class="space-y-3">
+                        <div class="flex items-center gap-3 text-gray-300"><i class="fas fa-phone-alt text-brand-gold w-5"></i> <a href="tel:+254705627844" class="hover:text-brand-gold">+254 705 627 844</a></div>
+                        <div class="flex items-center gap-3 text-gray-300"><i class="fas fa-envelope text-brand-gold w-5"></i> <a href="mailto:nderiprotectiondogs@gmail.com" class="hover:text-brand-gold">nderiprotectiondogs@gmail.com</a></div>
+                        <div class="flex items-center gap-3 text-gray-300"><i class="fas fa-map-pin text-brand-gold w-5"></i> <span>Nairobi, Kenya</span></div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-white text-xl font-semibold mb-5">Connect</h3>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="https://www.instagram.com/donnderi" target="_blank" class="bg-brand-gold/10 border border-border-gold rounded-2xl w-12 h-12 flex items-center justify-center text-white hover:bg-brand-gold hover:text-black transition-all"><i class="fab fa-instagram text-xl"></i></a>
+                        <a href="https://www.tiktok.com/@donnderi" target="_blank" class="bg-brand-gold/10 border border-border-gold rounded-2xl w-12 h-12 flex items-center justify-center text-white hover:bg-brand-gold hover:text-black transition-all"><i class="fab fa-tiktok text-xl"></i></a>
+                        <a href="#" class="bg-brand-gold/10 border border-border-gold rounded-2xl w-12 h-12 flex items-center justify-center text-white hover:bg-brand-gold hover:text-black transition-all"><i class="fab fa-facebook-f text-xl"></i></a>
+                        <a href="#" class="bg-brand-gold/10 border border-border-gold rounded-2xl w-12 h-12 flex items-center justify-center text-white hover:bg-brand-gold hover:text-black transition-all"><i class="fab fa-youtube text-xl"></i></a>
+                        <a href="https://wa.me/254705627844" target="_blank" class="bg-brand-gold/10 border border-border-gold rounded-2xl w-12 h-12 flex items-center justify-center text-white hover:bg-brand-gold hover:text-black transition-all"><i class="fab fa-whatsapp text-xl"></i></a>
+                    </div>
+                    <p class="text-brand-gold mt-5 text-sm tracking-wide">@donnderi</p>
+                </div>
+                <div class="bg-brand-gold/5 rounded-2xl p-5 border border-border-gold">
+                    <h3 class="text-white text-xl font-semibold mb-4">Hours</h3>
+                    <div class="space-y-2 text-gray-300">
+                        <div class="flex justify-between"><span>Mon-Fri</span><span class="font-bold text-brand-gold">8:00 - 18:00</span></div>
+                        <div class="flex justify-between"><span>Saturday</span><span class="font-bold text-brand-gold">9:00 - 16:00</span></div>
+                        <div class="flex justify-between"><span>Sunday</span><span class="font-bold text-brand-gold">Closed</span></div>
+                        <div class="border-t border-border-gold pt-3 mt-2 flex justify-between"><span>Emergency</span><span class="font-bold text-brand-gold">24/7</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-border-gold mt-12 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+                <div>© 2024 NDERI KENNELS — Excellence in Canine Services</div>
+                <div class="flex gap-2 mt-3 md:mt-0">
+                    <i class="fas fa-paw text-brand-gold"></i>
+                    <i class="fas fa-paw text-brand-gold"></i>
+                    <i class="fas fa-paw text-brand-gold"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        (function() {
+            const menuBtn = document.getElementById('mobileMenuBtn');
+            const mobileMenu = document.getElementById('mobileMenu');
+            if (menuBtn && mobileMenu) {
+                menuBtn.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                });
+                const links = mobileMenu.querySelectorAll('a');
+                links.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                    });
+                });
+            }
+        })();
+    </script>
+</body>
+</html>
